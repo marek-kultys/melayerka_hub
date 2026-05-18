@@ -9,7 +9,9 @@
       "Bash(bundle --version)",
       "Bash(gem list *)",
       "Bash(gem pristine *)",
-      "Bash(bundle config *)"
+      "Bash(bundle config *)",
+      "Bash(grep -v \"^$\")",
+      "WebFetch(domain:trowelandlime.com)"
     ]
   }
 }
