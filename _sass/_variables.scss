@@ -1,19 +1,20 @@
 // ─── Typography ───────────────────────────────────────────────────────────────
-$font-headline: 'Finlandica', sans-serif;
-$font-body:     system-ui, -apple-system, 'Segoe UI', sans-serif;
+$font-headline: "Finlandica Headline", sans-serif;
+$font-body:     "Finlandica Headline", sans-serif;
 $weight-light:  200;
+$weight-hair:  100;
 
 // ─── Colours ──────────────────────────────────────────────────────────────────
 $color-text:    #1a1a1a;
-$color-bg:      #ffffff;
-$color-muted:   #888888;
+$color-bg:      #f2f2f2;
+$color-muted:   #666666;
 
 // Business card backgrounds
-$color-art-bg:    #1a1a1a;
+$color-art-bg:    #222222;
 $color-art-text:  #ffffff;
 $color-art-image: #111111;
 
-$color-mural-bg:    #f5c400;
+$color-mural-bg:    #fac706;
 $color-mural-text:  #1a1a1a;
 $color-mural-image: #e0b300;
 

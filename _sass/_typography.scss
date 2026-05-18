@@ -1,5 +1,6 @@
 body {
   font-family: $font-body;
+  font-weight: $weight-light;
   color: $color-text;
   background-color: $color-bg;
 }
@@ -18,7 +19,7 @@ body {
 
 .site-tagline {
   font-family: $font-body;
-  font-size: 0.75rem;
+  font-size: 1rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: $color-muted;
@@ -26,7 +27,7 @@ body {
 }
 
 .statement {
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.8;
   max-width: 58ch;
 
@@ -49,7 +50,7 @@ body {
 }
 
 .card__tagline {
-  font-size: 0.7rem;
+  font-size: 1rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   opacity: 0.65;
@@ -57,13 +58,13 @@ body {
 }
 
 .card__description {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   line-height: 1.7;
   margin-bottom: $space-sm;
 }
 
 .card__cta {
-  font-size: 0.7rem;
+  font-size: 1rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   opacity: 0.7;
