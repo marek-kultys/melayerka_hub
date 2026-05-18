@@ -1,0 +1,31 @@
+.site-header {
+  padding: $space-md $space-sm;
+
+  @media (min-width: $bp-tablet) {
+    padding: $space-lg $space-md;
+  }
+}
+
+.site-statement {
+  padding: 0 $space-sm $space-lg;
+
+  @media (min-width: $bp-tablet) {
+    padding: 0 $space-md $space-lg;
+  }
+}
+
+.business-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  @media (min-width: $bp-tablet) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.site-footer {
+  padding: $space-md $space-sm;
+  font-size: 0.75rem;
+  color: $color-muted;
+  text-align: center;
+}

@@ -1,0 +1,66 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: 0.88;
+  }
+
+  &:focus-visible {
+    outline: 3px solid currentColor;
+    outline-offset: -3px;
+  }
+
+  &__image {
+    height: 260px;
+    flex-shrink: 0;
+
+    @media (min-width: $bp-tablet) {
+      height: 340px;
+    }
+
+    @media (min-width: $bp-desktop) {
+      height: 420px;
+    }
+  }
+
+  &__body {
+    flex: 1;
+    padding: $space-md $space-sm;
+
+    @media (min-width: $bp-tablet) {
+      padding: $space-md;
+    }
+  }
+
+  // ─── Business variants ──────────────────────────────────────────────────────
+
+  &--art {
+    background-color: $color-art-bg;
+    color: $color-art-text;
+
+    .card__image {
+      background-color: $color-art-image;
+    }
+  }
+
+  &--mural {
+    background-color: $color-mural-bg;
+    color: $color-mural-text;
+
+    .card__image {
+      background-color: $color-mural-image;
+    }
+  }
+
+  &--garden {
+    background-color: $color-garden-bg;
+    color: $color-garden-text;
+
+    .card__image {
+      background-color: $color-garden-image;
+    }
+  }
+}

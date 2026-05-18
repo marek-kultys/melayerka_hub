@@ -1,0 +1,32 @@
+// ─── Typography ───────────────────────────────────────────────────────────────
+$font-headline: 'Finlandica', sans-serif;
+$font-body:     system-ui, -apple-system, 'Segoe UI', sans-serif;
+$weight-light:  200;
+
+// ─── Colours ──────────────────────────────────────────────────────────────────
+$color-text:    #1a1a1a;
+$color-bg:      #ffffff;
+$color-muted:   #888888;
+
+// Business card backgrounds
+$color-art-bg:    #1a1a1a;
+$color-art-text:  #ffffff;
+$color-art-image: #111111;
+
+$color-mural-bg:    #f5c400;
+$color-mural-text:  #1a1a1a;
+$color-mural-image: #e0b300;
+
+$color-garden-bg:    #4d7c52;
+$color-garden-text:  #ffffff;
+$color-garden-image: #3d6341;
+
+// ─── Spacing ──────────────────────────────────────────────────────────────────
+$space-xs: 0.5rem;
+$space-sm: 1rem;
+$space-md: 2rem;
+$space-lg: 4rem;
+
+// ─── Breakpoints ──────────────────────────────────────────────────────────────
+$bp-tablet:  768px;
+$bp-desktop: 1024px;

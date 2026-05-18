@@ -1,0 +1,17 @@
+- id: art
+  label: Art
+  tagline: Fine art painting
+  description: Works on canvas exploring form, colour, and narrative — collected internationally.
+  url: https://melayerka.com/art
+
+- id: mural
+  label: Mural
+  tagline: Sgraffito mural painting
+  description: Architectural murals in the ancient sgraffito technique, designed for buildings and public spaces.
+  url: https://trowelandlime.com
+
+- id: garden
+  label: Garden
+  tagline: Garden design & maintenance
+  description: Gardens conceived as living compositions — designed with an artist's eye for colour, texture, and season.
+  url: https://melayerka.com/gardens
