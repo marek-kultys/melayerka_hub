@@ -8,13 +8,13 @@
 - id: mural
   label: Mural
   tagline: Sgraffito Mural Painting
-  description: Bespoke sgraffito murals carved into layered plaster. A technique rooted in ancient Rome — built to last decades. Commissions for homes and gardens, in London and beyond.
+  description: Bespoke sgraffito murals carved into layered plaster. A technique rooted in ancient Rome — built to last decades. Commissions for homes and gardens, London and beyond.
   url: https://trowelandlime.com
   image: mural.jpg
 
 - id: garden
   label: Garden
   tagline: Garden Design & Planting
-  description: Gardens conceived as living and sustatinable compositions. Designed with an artist's eye for colour, scale, texture, and harmonious progression through the seasons.
+  description: Gardens conceived as living, sustatinable compositions. Designed with an artist's eye for colour, scale, texture, and harmonious progression through the seasons.
   url: https://melayerka.com/gardens
   image: gardens.jpg
