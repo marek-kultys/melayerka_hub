@@ -24,7 +24,7 @@ description: Artist, muralist, and garden designer based in the UK.
      target="_blank"
      rel="noopener noreferrer"
      aria-label="{{ business.label }} — {{ business.tagline }}">
-    <div class="card__image"></div>
+    <img class="card__image" src="{{ '/assets/img/' | append: business.image | relative_url }}" alt="{{ business.label }}">
     <div class="card__body">
       <h2 class="card__label">{{ business.label }}</h2>
       <p class="card__tagline">{{ business.tagline }}</p>

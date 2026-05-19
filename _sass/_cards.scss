@@ -16,6 +16,9 @@
   &__image {
     height: 260px;
     flex-shrink: 0;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
 
     @media (min-width: $bp-tablet) {
       height: 340px;
