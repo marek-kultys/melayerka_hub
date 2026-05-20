@@ -1,19 +1,20 @@
 .site-contact {
-  padding: $space-lg $space-sm;
-  text-align: center;
-  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 0 $space-sm $space-lg;
+
+  @media (min-width: $bp-tablet) {
+    padding: 0 $space-md $space-lg;
+  }
 }
 
 .contact-heading {
   color: $color-muted;
-  margin-bottom: $space-md;
+  margin-bottom: $space-sm;
 }
 
 .contact-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: $space-sm $space-lg;
+  gap: $space-sm $space-md;
 }
 
 .contact-link {

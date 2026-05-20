@@ -36,6 +36,25 @@ body {
   }
 }
 
+.contact-heading {
+  font-size: $text-small;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.contact-link {
+  font-size: $text-medium;
+  letter-spacing: 0.08em;
+
+  &--whatsapp {
+    color: $color-whatsapp;
+  }
+
+  &--email {
+    cursor: pointer;
+  }
+}
+
 .card__label {
   font-family: $font-headline;
   font-weight: $weight-light;
@@ -55,6 +74,7 @@ body {
   text-transform: uppercase;
   opacity: $medium;
   margin-bottom: $space-sm;
+  font-weight: $weight-medium;
 }
 
 .card__description {
@@ -67,25 +87,9 @@ body {
   font-size: $text-small;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  opacity: 0.7;
-}
+  opacity: $medium;
+  font-weight: $weight-medium;
 
-.contact-heading {
-  font-size: 0.7rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-}
-
-.contact-link {
-  font-size: 1rem;
-  letter-spacing: 0.08em;
-
-  &--whatsapp {
-    color: $color-whatsapp;
-  }
-
-  &--email {
-    cursor: pointer;
   }
 }
 
