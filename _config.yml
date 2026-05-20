@@ -3,6 +3,10 @@ tagline: Artist · Muralist · Garden Designer
 url: "https://melayerka.com"
 baseurl: ""
 
+author: Mela Yerka
+keywords: "fine art, painting, sgraffito, mural, garden design, St Albans, London"
+theme_color: "#4c7b50"
+
 markdown: kramdown
 sass:
   sass_dir: _sass
