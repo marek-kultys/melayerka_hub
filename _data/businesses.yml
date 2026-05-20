@@ -1,0 +1,20 @@
+- id: art
+  label: Art
+  tagline: Fine Art Painting
+  description: Works in mixed media exploring form, colour, and culture — folk tales, 19th-century archetypes, the value we assign to things. Exhibited in London, Stockholm, Turin, and Vienna.
+  url: https://melayerka.com/
+  image: art5.jpg
+
+- id: mural
+  label: Mural
+  tagline: Sgraffito Mural Painting
+  description: Bespoke sgraffito murals carved into layered plaster. A technique rooted in ancient Rome — built to last decades. Commissions for homes and gardens, London and beyond.
+  url: https://trowelandlime.com
+  image: mural.jpg
+
+- id: garden
+  label: Garden
+  tagline: Garden Design & Planting
+  description: Gardens conceived as living, sustatinable compositions. Designed with an artist's eye for colour, scale, texture, and harmonious progression through the seasons.
+  url: https://melayerka.com/gardens
+  image: gardens.jpg

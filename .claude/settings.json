@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bundle install *)",
+      "Bash(bundle exec *)",
+      "Bash(bundle update *)",
+      "Bash(ruby --version)",
+      "Bash(gem --version)",
+      "Bash(bundle --version)",
+      "Bash(gem list *)",
+      "Bash(gem pristine *)",
+      "Bash(bundle config *)",
+      "Bash(grep -v \"^$\")",
+      "WebFetch(domain:trowelandlime.com)"
+    ]
+  }
+}

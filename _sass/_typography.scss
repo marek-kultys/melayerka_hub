@@ -1,0 +1,113 @@
+body {
+  font-family: $font-body;
+  font-weight: $weight-light;
+  color: $color-text;
+  background-color: $color-bg;
+}
+
+.site-name {
+  font-family: $font-headline;
+  font-weight: $weight-light;
+  font-size: $text-large;
+  line-height: 1.1;
+  letter-spacing: $spacing-less;
+
+
+  @media (min-width: $bp-tablet) {
+    font-size: $text-huge;
+    letter-spacing: $spacing-less;
+  }
+}
+
+.site-tagline {
+  font-family: $font-body;
+  font-size: $text-small;
+  letter-spacing: $spacing-more;
+  text-transform: uppercase;
+  color: $color-muted;
+  margin-top: $space-xs;
+  font-weight: $weight-medium;
+}
+
+.statement {
+  font-size: $text-medium;
+  line-height: 1.8;
+  max-width: 58ch;
+
+  @media (min-width: $bp-tablet) {
+    font-size: $text-medium;
+  }
+}
+
+.contact-heading {
+  font-size: $text-small;
+  letter-spacing: $spacing-more;
+  text-transform: uppercase;
+  font-weight: $weight-medium;
+  color: $color-muted;
+}
+
+.contact-link {
+  font-size: $text-medium;
+  letter-spacing: $spacing-medium;
+
+  &--whatsapp {
+    color: $color-whatsapp;
+  }
+
+  &--email {
+    cursor: pointer;
+  }
+}
+
+.card__label {
+  font-family: $font-headline;
+  font-weight: $weight-light;
+  font-size: $text-big;
+  letter-spacing: $spacing-medium;
+  line-height: 1.1;
+  margin-bottom: $space-xs;
+
+  @media (min-width: $bp-tablet) {
+    font-size: $text-large;
+  }
+}
+
+.card__tagline {
+  font-size: $text-small;
+  letter-spacing: $spacing-more;
+  text-transform: uppercase;
+  opacity: $medium;
+  margin-bottom: $space-sm;
+  font-weight: $weight-medium;
+}
+
+.card__description {
+  font-size: $text-medium;
+  line-height: 1.7;
+  margin-bottom: $space-sm;
+}
+
+.card__cta {
+  font-size: $text-small;
+  letter-spacing: $spacing-more;
+  text-transform: uppercase;
+  opacity: $medium;
+  font-weight: $weight-medium;
+
+  .material-symbols-outlined {
+    font-size: $text-small;
+    vertical-align: middle;
+    position: relative;
+    top: -0.1em;
+    line-height: 1;
+  }
+}
+
+.site-footer {
+  padding: $space-md $space-sm;
+  font-size: $text-small;
+  color: $color-muted;
+  text-align: center;
+  font-weight: $weight-light;
+}

@@ -1,0 +1,29 @@
+.site-contact {
+  padding: 0 $space-sm $space-lg;
+
+  @media (min-width: $bp-tablet) {
+    padding: 0 $space-md $space-lg;
+  }
+}
+
+.contact-heading {
+  color: $color-muted;
+  margin-bottom: $space-sm;
+}
+
+.contact-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-sm $space-md;
+}
+
+.contact-link {
+  color: $color-text;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: $medium;
+  }
+}

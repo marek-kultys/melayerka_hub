@@ -1,0 +1,69 @@
+---
+layout: default
+title: Mela Yerka
+description: Artist, muralist, and garden designer based in the UK.
+---
+
+<header class="site-header">
+  <h1 class="site-name">Mela Yerka</h1>
+  <p class="site-tagline">Artist &middot; Muralist &middot; Garden Designer</p>
+</header>
+
+<section class="site-statement">
+  <p class="statement">
+    My practice moves between canvas, wall, and garden. Each is a different
+    scale of the same impulse — to make something beautiful, considered, and
+    lasting from the materials at hand.
+  </p>
+</section>
+
+<section class="site-contact">
+  <p class="contact-heading">Get in touch</p>
+  <ul class="contact-list">
+    <li>
+      <a class="contact-link"
+         href="https://www.instagram.com/melayerka/"
+         target="_blank"
+         rel="noopener noreferrer">Instagram</a>
+    </li>
+    <li>
+      <a class="contact-link contact-link--email"
+         href="#"
+         data-en="mela.yerka"
+         data-eh="gmail.com">Email</a>
+    </li>
+    <li>
+      <a class="contact-link contact-link--whatsapp"
+         href="https://wa.me/447972296732"
+         target="_blank"
+         rel="noopener noreferrer">WhatsApp</a>
+    </li>
+  </ul>
+</section>
+
+<section class="business-grid">
+  {% for business in site.data.businesses %}
+  <a class="card card--{{ business.id }}"
+     href="{{ business.url }}"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="{{ business.label }} — {{ business.tagline }}">
+    <img class="card__image" src="{{ '/assets/img/' | append: business.image | relative_url }}" alt="{{ business.label }}">
+    <div class="card__body">
+      <h2 class="card__label">{{ business.label }}</h2>
+      <p class="card__tagline">{{ business.tagline }}</p>
+      <p class="card__description">{{ business.description }}</p>
+      <span class="card__cta">Visit <span class="material-symbols-outlined" aria-hidden="true">open_in_new</span></span>
+    </div>
+  </a>
+  {% endfor %}
+</section>
+
+<script>
+  document.querySelectorAll('.contact-link--email').forEach(function(el) {
+    el.addEventListener('click', function(e) {
+      e.preventDefault();
+      window.location.href = 'mailto:' + el.dataset.en + '@' + el.dataset.eh;
+    });
+  });
+</script>
