@@ -88,3 +88,10 @@ body {
     cursor: pointer;
   }
 }
+
+.site-footer {
+  padding: $space-md $space-sm;
+  font-size: $text-small;
+  color: $color-muted;
+  text-align: center;
+}
