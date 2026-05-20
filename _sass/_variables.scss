@@ -1,8 +1,16 @@
 // ─── Typography ───────────────────────────────────────────────────────────────
 $font-headline: "Finlandica Headline", sans-serif;
 $font-body:     "Finlandica Headline", sans-serif;
+
+$weight-medium: 400;
 $weight-light:  200;
 $weight-hair:  100;
+
+$text-huge: 4rem;
+$text-large: 2.5rem;
+$text-big: 2rem;
+$text-medium: 1.2rem;
+$text-small: 1rem;
 
 // ─── Colours ──────────────────────────────────────────────────────────────────
 $color-text:    #1a1a1a;
@@ -21,6 +29,8 @@ $color-mural-image: #823e26;
 $color-garden-bg:    #4c7b50;
 $color-garden-text:  #ffffff;
 $color-garden-image: #3d6341;
+
+$medium: 0.5;
 
 // ─── Spacing ──────────────────────────────────────────────────────────────────
 $space-xs: 0.5rem;
