@@ -1,0 +1,28 @@
+.site-contact {
+  padding: $space-lg $space-sm;
+  text-align: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.contact-heading {
+  color: $color-muted;
+  margin-bottom: $space-md;
+}
+
+.contact-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: $space-sm $space-lg;
+}
+
+.contact-link {
+  color: $color-text;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: 0.55;
+  }
+}

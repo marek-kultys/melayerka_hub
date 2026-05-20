@@ -34,3 +34,36 @@ description: Artist, muralist, and garden designer based in the UK.
   </a>
   {% endfor %}
 </section>
+
+<section class="site-contact">
+  <p class="contact-heading">Get in touch</p>
+  <ul class="contact-list">
+    <li>
+      <a class="contact-link"
+         href="https://www.instagram.com/melayerka/"
+         target="_blank"
+         rel="noopener noreferrer">Instagram</a>
+    </li>
+    <li>
+      <a class="contact-link contact-link--email"
+         href="#"
+         data-en="mela.yerka"
+         data-eh="gmail.com">Email</a>
+    </li>
+    <li>
+      <a class="contact-link contact-link--whatsapp"
+         href="https://wa.me/447972296732"
+         target="_blank"
+         rel="noopener noreferrer">WhatsApp</a>
+    </li>
+  </ul>
+</section>
+
+<script>
+  document.querySelectorAll('.contact-link--email').forEach(function(el) {
+    el.addEventListener('click', function(e) {
+      e.preventDefault();
+      window.location.href = 'mailto:' + el.dataset.en + '@' + el.dataset.eh;
+    });
+  });
+</script>
